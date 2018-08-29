@@ -1,6 +1,18 @@
 # pruebacmym_fn
 
-Para ejecutar esta apliación es necesario lo siguiente:
+Para que el proyecto funcione se deben instalar laravel 4.2 desde composer (http://getcomposer.org/)
+
+1. Primero, descargue una copia de composer.phar. Una vez que tenga el archivo PHAR, puede guardarlo en su directorio local de proyectos o moverlo a usr/local/bin para usarlo globalmente en su sistema. En Windows, puede usar el instalador de Composer para Windows https://getcomposer.org/Composer-Setup.exe
+
+2. Ejecutar en la línea de comandos lo siguiente: composer create-project laravel/laravel pruebacmym 4.2 --prefer-dist
+
+3. reemplazar los archivos por los de este repositorio
+
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
+
+Para probar esta apliación es necesario lo siguiente:
 
 1. Instalar y Ejecutar Apache en el servidor
 
@@ -10,7 +22,7 @@ Para ejecutar esta apliación es necesario lo siguiente:
 
 4. Crear y asiganrle un usuario a la base de datos
 
-5. Cambiar el archivo app/config/database.php con los accesos para la base de datos:
+5. Cambiar el archivo app/config/database.php con los accesos para la base de datos (username y password):
 
 Línea 55: 
 'mysql' => array(
