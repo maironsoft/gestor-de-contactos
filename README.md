@@ -1,4 +1,4 @@
-# pruebacmym_fn
+# gestor_de_contactos
 
 Para que el proyecto funcione se deben instalar laravel 4.2 desde composer (http://getcomposer.org/)
 
